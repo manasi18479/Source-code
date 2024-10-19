@@ -1,0 +1,96 @@
+import gui.AdminGUI;
+
+import gui.CustomerGUI;
+
+import javax.swing.*;
+
+import java.awt.event.*;
+
+ 
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        // Creating the main frame
+
+        JFrame mainFrame = new JFrame("Supermarket Management System");
+
+        mainFrame.setSize(400, 300);
+
+        mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        mainFrame.setLayout(null);
+
+ 
+
+        // Label for welcome
+
+        JLabel welcomeLabel = new JLabel("Welcome to Supermarket Management System");
+
+        welcomeLabel.setBounds(50, 30, 300, 30);
+
+        mainFrame.add(welcomeLabel);
+
+ 
+
+        // Buttons for Admin and Customer
+
+        JButton adminButton = new JButton("Admin Panel");
+
+        adminButton.setBounds(100, 100, 200, 40);
+
+        JButton customerButton = new JButton("Customer Panel");
+
+        customerButton.setBounds(100, 160, 200, 40);
+
+ 
+
+        mainFrame.add(adminButton);
+
+        mainFrame.add(customerButton);
+
+ 
+
+        // Admin button action to open Admin Panel
+
+        adminButton.addActionListener(new ActionListener() {
+
+            public void actionPerformed(ActionEvent e) {
+
+                AdminGUI adminPanel = new AdminGUI();
+
+                adminPanel.setVisible(true);
+
+                mainFrame.dispose(); // Close the main window
+
+            }
+
+        });
+
+ 
+
+        // Customer button action to open Customer Panel
+
+        customerButton.addActionListener(new ActionListener() {
+
+            public void actionPerformed(ActionEvent e) {
+
+                CustomerGUI customerPanel = new CustomerGUI();
+
+                customerPanel.setVisible(true);
+
+                mainFrame.dispose(); // Close the main window
+
+            }
+
+        });
+
+ 
+
+        mainFrame.setVisible(true);
+
+    }
+
+}
+
