@@ -1,10 +1,10 @@
 {
-  "AppSyncApiName": "dev",
+  "AppSyncApiName": "cloudnotesapp",
   "DynamoDBBillingMode": "PAY_PER_REQUEST",
   "DynamoDBEnableServerSideEncryption": false,
   "AuthCognitoUserPoolId": {
     "Fn::GetAtt": [
-      "authdev251728c8",
+      "authcloudnotesapp1501c86a",
       "Outputs.UserPoolId"
     ]
   }

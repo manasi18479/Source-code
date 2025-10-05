@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "dev251728c8_identitypool_251728c8",
+    "identityPoolName": "cloudnotesapp1501c86a_identitypool_1501c86a",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "dev251728c8",
-    "userPoolName": "dev251728c8_userpool_251728c8",
+    "resourceNameTruncated": "cloudn1501c86a",
+    "userPoolName": "cloudnotesapp1501c86a_userpool_1501c86a",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,10 +31,10 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "dev251251728c8_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "cloudn1501c86a_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "251728c8",
-    "resourceName": "dev251728c8",
+    "sharedId": "1501c86a",
+    "resourceName": "cloudnotesapp1501c86a",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "default",
     "usernameAttributes": [

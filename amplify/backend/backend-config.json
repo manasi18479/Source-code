@@ -1,13 +1,13 @@
 {
   "api": {
-    "dev": {
+    "cloudnotesapp": {
       "dependsOn": [
         {
           "attributes": [
             "UserPoolId"
           ],
           "category": "auth",
-          "resourceName": "dev251728c8"
+          "resourceName": "cloudnotesapp1501c86a"
         }
       ],
       "output": {
@@ -16,7 +16,7 @@
           "defaultAuthentication": {
             "authenticationType": "AMAZON_COGNITO_USER_POOLS",
             "userPoolConfig": {
-              "userPoolId": "authdev251728c8"
+              "userPoolId": "authcloudnotesapp1501c86a"
             }
           }
         }
@@ -26,7 +26,7 @@
     }
   },
   "auth": {
-    "dev251728c8": {
+    "cloudnotesapp1501c86a": {
       "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {

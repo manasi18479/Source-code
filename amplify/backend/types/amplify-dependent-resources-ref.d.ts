@@ -1,12 +1,12 @@
 export type AmplifyDependentResourcesAttributes = {
   "api": {
-    "dev": {
+    "cloudnotesapp": {
       "GraphQLAPIEndpointOutput": "string",
       "GraphQLAPIIdOutput": "string"
     }
   },
   "auth": {
-    "dev251728c8": {
+    "cloudnotesapp1501c86a": {
       "AppClientID": "string",
       "AppClientIDWeb": "string",
       "IdentityPoolId": "string",
