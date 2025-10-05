@@ -1,0 +1,14 @@
+{
+  "resourceName": "cloudnotesimages",
+  "policyUUID": "eb1b5b2e",
+  "bucketName": "devb2d1c3cef078430e89754f06c53fb0cc",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

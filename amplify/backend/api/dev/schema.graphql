@@ -1,0 +1,8 @@
+type Note @model @auth(rules: [{allow: owner, operations: [create, read, update, delete]}]) {
+  id: ID!
+  title: String!
+  content: String
+  font: String
+  color: String
+  imageKey: String # S3 key for the uploaded image
+}
